@@ -1,0 +1,64 @@
+﻿@model IEnumerable<WebBanHang.Models.SanPham>
+@{
+    ViewData["Title"] = "Shop";
+    var idkh = ViewBag.idKh; 
+}
+
+<section class="site-banner jarallax min-height300 padding-large" style="background: url('@Url.Content("~/images/hero-image.jpg")') no-repeat; background-position: top;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="page-title">Shop page</h1>
+                <div class="breadcrumbs">
+                    <span class="item">
+                        <a asp-action="Index">Home /</a>
+                    </span>
+                    <span class="item">Shop</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container mt-5" style="min-height: 500px;">
+    <form id="order-form" asp-action="SubmitOrder" asp-controller="HangHoa">
+        <!-- Các input cho thông tin hóa đơn -->
+        <input type="hidden" id="idkh" name="Idkh" value="@idkh" />
+        <input type="hidden" id="total-price-hidden" name="ThanhTien" value="0" />
+        <input type="hidden" id="product-ids" name="productIds" value="" />
+        <input type="hidden" id="product-quantities" name="productQuantities" value="" />
+        <!-- Header -->
+        <div class="row cart-header py-2 text-center fw-bold">
+            <div class="col-5">Sản Phẩm</div>
+            <div class="col-2">Đơn Giá</div>
+            <div class="col-2">Số Lượng</div>
+            <div class="col-2">Số Tiền</div>
+            <div class="col-1">Thao Tác</div>
+        </div>
+
+        <!-- Cart Items -->
+        <div id="cart-items" class="cart-container p-3 my-3">
+            <!-- Các sản phẩm sẽ được thêm vào đây bằng JavaScript -->
+        </div>
+
+        <!-- Footer -->
+        <div class="row align-items-center mt-3">
+            <div class="col-6">
+                <button type="button" class="btn btn-outline-secondary" onclick="clearCart()">Xóa tất cả</button>
+            </div>
+            <div class="col-4 text-end fw-bold">
+                Tổng cộng: <span id="total-price" class="text-danger">0₫</span>
+            </div>
+            <div class="col-2 text-end">
+                <button type="submit" class="btn btn-primary">Mua hàng</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+
+
+
+
+                        

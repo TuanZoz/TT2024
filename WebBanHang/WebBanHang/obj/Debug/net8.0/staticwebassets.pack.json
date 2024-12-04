@@ -1,0 +1,741 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebBanHang.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebBanHang.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\about.html",
+      "PackagePath": "staticwebassets\\about.html"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\blog.html",
+      "PackagePath": "staticwebassets\\blog.html"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\contact.html",
+      "PackagePath": "staticwebassets\\contact.html"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\css\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\css\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\css\\normalize.css"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\css\\vendor.css",
+      "PackagePath": "staticwebassets\\css\\vendor.css"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\icomoon\\Read Me.txt",
+      "PackagePath": "staticwebassets\\icomoon\\Read Me.txt"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\icomoon\\fonts\\icomoon.eot",
+      "PackagePath": "staticwebassets\\icomoon\\fonts\\icomoon.eot"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\icomoon\\fonts\\icomoon.svg",
+      "PackagePath": "staticwebassets\\icomoon\\fonts\\icomoon.svg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\icomoon\\fonts\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\icomoon\\fonts\\icomoon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\icomoon\\fonts\\icomoon.woff",
+      "PackagePath": "staticwebassets\\icomoon\\fonts\\icomoon.woff"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\icomoon\\icomoon.css",
+      "PackagePath": "staticwebassets\\icomoon\\icomoon.css"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\icomoon\\selection.json",
+      "PackagePath": "staticwebassets\\icomoon\\selection.json"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\0qotzmik.wke.png",
+      "PackagePath": "staticwebassets\\images\\0qotzmik.wke.png"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\8760611.png",
+      "PackagePath": "staticwebassets\\images\\8760611.png"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\american-express.jpg",
+      "PackagePath": "staticwebassets\\images\\american-express.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\app-store.jpg",
+      "PackagePath": "staticwebassets\\images\\app-store.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\b1wt1mxc.tvf.png",
+      "PackagePath": "staticwebassets\\images\\b1wt1mxc.tvf.png"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\banner-image3.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\banner-image4.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-image4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\banner1.jpg",
+      "PackagePath": "staticwebassets\\images\\banner1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\banner2.jpg",
+      "PackagePath": "staticwebassets\\images\\banner2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\brand1.png",
+      "PackagePath": "staticwebassets\\images\\brand1.png"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\brand2.png",
+      "PackagePath": "staticwebassets\\images\\brand2.png"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\brand3.png",
+      "PackagePath": "staticwebassets\\images\\brand3.png"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\brand4.png",
+      "PackagePath": "staticwebassets\\images\\brand4.png"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\brand5.png",
+      "PackagePath": "staticwebassets\\images\\brand5.png"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\cat-item1.jpg",
+      "PackagePath": "staticwebassets\\images\\cat-item1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\cat-item2.jpg",
+      "PackagePath": "staticwebassets\\images\\cat-item2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\cat-item3.jpg",
+      "PackagePath": "staticwebassets\\images\\cat-item3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\collection-item.jpg",
+      "PackagePath": "staticwebassets\\images\\collection-item.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\collection-item1.jpg",
+      "PackagePath": "staticwebassets\\images\\collection-item1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\collection-item2.jpg",
+      "PackagePath": "staticwebassets\\images\\collection-item2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\collection-item3.jpg",
+      "PackagePath": "staticwebassets\\images\\collection-item3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\curly-divider.svg",
+      "PackagePath": "staticwebassets\\images\\curly-divider.svg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\cy1ymmpr.up3.png",
+      "PackagePath": "staticwebassets\\images\\cy1ymmpr.up3.png"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\error-image.jpg",
+      "PackagePath": "staticwebassets\\images\\error-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\fullscreen-symbol (1).png",
+      "PackagePath": "staticwebassets\\images\\fullscreen-symbol (1).png"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\fullscreen-symbol (2).png",
+      "PackagePath": "staticwebassets\\images\\fullscreen-symbol (2).png"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\fullscreen-symbol.png",
+      "PackagePath": "staticwebassets\\images\\fullscreen-symbol.png"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\google-play.jpg",
+      "PackagePath": "staticwebassets\\images\\google-play.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\hero-image.jpg",
+      "PackagePath": "staticwebassets\\images\\hero-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\hero-image1.jpg",
+      "PackagePath": "staticwebassets\\images\\hero-image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\insta-image1.jpg",
+      "PackagePath": "staticwebassets\\images\\insta-image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\insta-image2.jpg",
+      "PackagePath": "staticwebassets\\images\\insta-image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\insta-image3.jpg",
+      "PackagePath": "staticwebassets\\images\\insta-image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\insta-image4.jpg",
+      "PackagePath": "staticwebassets\\images\\insta-image4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\insta-image5.jpg",
+      "PackagePath": "staticwebassets\\images\\insta-image5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\insta-image6.jpg",
+      "PackagePath": "staticwebassets\\images\\insta-image6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\leaf.png",
+      "PackagePath": "staticwebassets\\images\\leaf.png"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\main-banner.jpg",
+      "PackagePath": "staticwebassets\\images\\main-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\main-logo.png",
+      "PackagePath": "staticwebassets\\images\\main-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\mastercard.png",
+      "PackagePath": "staticwebassets\\images\\mastercard.png"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\model.jpg",
+      "PackagePath": "staticwebassets\\images\\model.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\ns-arrow-right.svg",
+      "PackagePath": "staticwebassets\\images\\ns-arrow-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\post-img1.jpg",
+      "PackagePath": "staticwebassets\\images\\post-img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\post-img2.jpg",
+      "PackagePath": "staticwebassets\\images\\post-img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\post-img3.jpg",
+      "PackagePath": "staticwebassets\\images\\post-img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\post-img4.jpg",
+      "PackagePath": "staticwebassets\\images\\post-img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\post-img5.jpg",
+      "PackagePath": "staticwebassets\\images\\post-img5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\post-img6.jpg",
+      "PackagePath": "staticwebassets\\images\\post-img6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\post-img7.jpg",
+      "PackagePath": "staticwebassets\\images\\post-img7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\post-img8.jpg",
+      "PackagePath": "staticwebassets\\images\\post-img8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\post-img9.jpg",
+      "PackagePath": "staticwebassets\\images\\post-img9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\post-small-image1.jpg",
+      "PackagePath": "staticwebassets\\images\\post-small-image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\post-small-image2.jpg",
+      "PackagePath": "staticwebassets\\images\\post-small-image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\post-small-image3.jpg",
+      "PackagePath": "staticwebassets\\images\\post-small-image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\product-image.jpg",
+      "PackagePath": "staticwebassets\\images\\product-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\product-item1.jpg",
+      "PackagePath": "staticwebassets\\images\\product-item1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\product-item2.jpg",
+      "PackagePath": "staticwebassets\\images\\product-item2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\product-item3.jpg",
+      "PackagePath": "staticwebassets\\images\\product-item3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\product-item4.jpg",
+      "PackagePath": "staticwebassets\\images\\product-item4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\product-large-1.jpg",
+      "PackagePath": "staticwebassets\\images\\product-large-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\product-large-2.jpg",
+      "PackagePath": "staticwebassets\\images\\product-large-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\product-large-3.jpg",
+      "PackagePath": "staticwebassets\\images\\product-large-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\product-thumbnail-1.jpg",
+      "PackagePath": "staticwebassets\\images\\product-thumbnail-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\product-thumbnail-2.jpg",
+      "PackagePath": "staticwebassets\\images\\product-thumbnail-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\product-thumbnail-3.jpg",
+      "PackagePath": "staticwebassets\\images\\product-thumbnail-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\review-image1.jpg",
+      "PackagePath": "staticwebassets\\images\\review-image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\review-image2.jpg",
+      "PackagePath": "staticwebassets\\images\\review-image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\selling-products1.jpg",
+      "PackagePath": "staticwebassets\\images\\selling-products1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\selling-products10.jpg",
+      "PackagePath": "staticwebassets\\images\\selling-products10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\selling-products11.jpg",
+      "PackagePath": "staticwebassets\\images\\selling-products11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\selling-products12.jpg",
+      "PackagePath": "staticwebassets\\images\\selling-products12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\selling-products13.jpg",
+      "PackagePath": "staticwebassets\\images\\selling-products13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\selling-products14.jpg",
+      "PackagePath": "staticwebassets\\images\\selling-products14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\selling-products15.jpg",
+      "PackagePath": "staticwebassets\\images\\selling-products15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\selling-products16.jpg",
+      "PackagePath": "staticwebassets\\images\\selling-products16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\selling-products17.jpg",
+      "PackagePath": "staticwebassets\\images\\selling-products17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\selling-products18.jpg",
+      "PackagePath": "staticwebassets\\images\\selling-products18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\selling-products19.jpg",
+      "PackagePath": "staticwebassets\\images\\selling-products19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\selling-products2.jpg",
+      "PackagePath": "staticwebassets\\images\\selling-products2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\selling-products20.jpg",
+      "PackagePath": "staticwebassets\\images\\selling-products20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\selling-products3.jpg",
+      "PackagePath": "staticwebassets\\images\\selling-products3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\selling-products4.jpg",
+      "PackagePath": "staticwebassets\\images\\selling-products4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\selling-products5.jpg",
+      "PackagePath": "staticwebassets\\images\\selling-products5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\selling-products6.jpg",
+      "PackagePath": "staticwebassets\\images\\selling-products6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\selling-products7.jpg",
+      "PackagePath": "staticwebassets\\images\\selling-products7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\selling-products8.jpg",
+      "PackagePath": "staticwebassets\\images\\selling-products8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\selling-products9.jpg",
+      "PackagePath": "staticwebassets\\images\\selling-products9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\single-image1.jpg",
+      "PackagePath": "staticwebassets\\images\\single-image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\single-image2.jpg",
+      "PackagePath": "staticwebassets\\images\\single-image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\text-pattern.png",
+      "PackagePath": "staticwebassets\\images\\text-pattern.png"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\tnfub1ys.i2c.png",
+      "PackagePath": "staticwebassets\\images\\tnfub1ys.i2c.png"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\video-image.jpg",
+      "PackagePath": "staticwebassets\\images\\video-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\visa-icon.jpg",
+      "PackagePath": "staticwebassets\\images\\visa-icon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\images\\wssrc2ag.uwi.png",
+      "PackagePath": "staticwebassets\\images\\wssrc2ag.uwi.png"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\js\\jquery-1.11.0.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-1.11.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\js\\modernizr.js",
+      "PackagePath": "staticwebassets\\js\\modernizr.js"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\js\\plugins.js"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\readme.txt",
+      "PackagePath": "staticwebassets\\readme.txt"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\shop.html",
+      "PackagePath": "staticwebassets\\shop.html"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\single-post.html",
+      "PackagePath": "staticwebassets\\single-post.html"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\styles.html",
+      "PackagePath": "staticwebassets\\styles.html"
+    },
+    {
+      "Id": "C:\\Users\\ductu\\Downloads\\New folder\\WebBanHang\\WebBanHang\\wwwroot\\thank-you.html",
+      "PackagePath": "staticwebassets\\thank-you.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebBanHang.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebBanHang.props",
+      "PackagePath": "build\\WebBanHang.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebBanHang.props",
+      "PackagePath": "buildMultiTargeting\\WebBanHang.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebBanHang.props",
+      "PackagePath": "buildTransitive\\WebBanHang.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

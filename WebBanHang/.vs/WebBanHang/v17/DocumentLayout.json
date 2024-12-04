@@ -1,0 +1,278 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|c:\\users\\ductu\\documents\\zalo received files\\webbanhang\\webbanhang\\views\\home\\lichsudonmua.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|solutionrelative:webbanhang\\views\\home\\lichsudonmua.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|c:\\users\\ductu\\documents\\zalo received files\\webbanhang\\webbanhang\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|solutionrelative:webbanhang\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|c:\\users\\ductu\\documents\\zalo received files\\webbanhang\\webbanhang\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|solutionrelative:webbanhang\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|c:\\users\\ductu\\documents\\zalo received files\\webbanhang\\webbanhang\\views\\home\\hanghoa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|solutionrelative:webbanhang\\views\\home\\hanghoa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|c:\\users\\ductu\\documents\\zalo received files\\webbanhang\\webbanhang\\models\\dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|solutionrelative:webbanhang\\models\\dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|c:\\users\\ductu\\documents\\zalo received files\\webbanhang\\webbanhang\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|solutionrelative:webbanhang\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|c:\\users\\ductu\\documents\\zalo received files\\webbanhang\\webbanhang\\controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|solutionrelative:webbanhang\\controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|c:\\users\\ductu\\documents\\zalo received files\\webbanhang\\webbanhang\\views\\shared\\_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|solutionrelative:webbanhang\\views\\shared\\_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|c:\\users\\ductu\\documents\\zalo received files\\webbanhang\\webbanhang\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|solutionrelative:webbanhang\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|c:\\users\\ductu\\documents\\zalo received files\\webbanhang\\webbanhang\\views\\hanghoa\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|solutionrelative:webbanhang\\views\\hanghoa\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|c:\\users\\ductu\\documents\\zalo received files\\webbanhang\\webbanhang\\views\\home\\giohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|solutionrelative:webbanhang\\views\\home\\giohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|c:\\users\\ductu\\documents\\zalo received files\\webbanhang\\webbanhang\\models\\hoadonchitiet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|solutionrelative:webbanhang\\models\\hoadonchitiet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|c:\\users\\ductu\\documents\\zalo received files\\webbanhang\\webbanhang\\models\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|solutionrelative:webbanhang\\models\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|c:\\users\\ductu\\documents\\zalo received files\\webbanhang\\webbanhang\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|solutionrelative:webbanhang\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|c:\\users\\ductu\\documents\\zalo received files\\webbanhang\\webbanhang\\views\\home\\qlsanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|solutionrelative:webbanhang\\views\\home\\qlsanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|c:\\users\\ductu\\documents\\zalo received files\\webbanhang\\webbanhang\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5586E8BA-26A6-4631-9157-EE4B5BB991F4}|WebBanHang\\WebBanHang.csproj|solutionrelative:webbanhang\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 248,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "WebBanHang\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "WebBanHang\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAowHQAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-24T17:02:42.889Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NhanVienController.cs",
+              "DocumentMoniker": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\Controllers\\NhanVienController.cs",
+              "RelativeDocumentMoniker": "WebBanHang\\Controllers\\NhanVienController.cs",
+              "ToolTip": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\Controllers\\NhanVienController.cs",
+              "RelativeToolTip": "WebBanHang\\Controllers\\NhanVienController.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T18:35:38.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LichsuDonMua.cshtml",
+              "DocumentMoniker": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\Views\\Home\\LichsuDonMua.cshtml",
+              "RelativeDocumentMoniker": "WebBanHang\\Views\\Home\\LichsuDonMua.cshtml",
+              "ToolTip": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\Views\\Home\\LichsuDonMua.cshtml",
+              "RelativeToolTip": "WebBanHang\\Views\\Home\\LichsuDonMua.cshtml",
+              "ViewState": "AQIAAAoAAAAAAAAAAABBwB4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T18:09:19.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "KhachHangController.cs",
+              "DocumentMoniker": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\Controllers\\KhachHangController.cs",
+              "RelativeDocumentMoniker": "WebBanHang\\Controllers\\KhachHangController.cs",
+              "ToolTip": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\Controllers\\KhachHangController.cs",
+              "RelativeToolTip": "WebBanHang\\Controllers\\KhachHangController.cs",
+              "ViewState": "AQIAAKMAAAAAAAAAAAAwwC0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T17:24:59.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HangHoaController.cs",
+              "DocumentMoniker": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\Controllers\\HangHoaController.cs",
+              "RelativeDocumentMoniker": "WebBanHang\\Controllers\\HangHoaController.cs",
+              "ToolTip": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\Controllers\\HangHoaController.cs",
+              "RelativeToolTip": "WebBanHang\\Controllers\\HangHoaController.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAqwHkAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T17:02:37.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebBanHang\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebBanHang\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAiwEEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T17:57:15.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Hanghoa.cshtml",
+              "DocumentMoniker": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\Views\\Home\\Hanghoa.cshtml",
+              "RelativeDocumentMoniker": "WebBanHang\\Views\\Home\\Hanghoa.cshtml",
+              "ToolTip": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\Views\\Home\\Hanghoa.cshtml",
+              "RelativeToolTip": "WebBanHang\\Views\\Home\\Hanghoa.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T17:16:01.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dto.cs",
+              "DocumentMoniker": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\Models\\Dto.cs",
+              "RelativeDocumentMoniker": "WebBanHang\\Models\\Dto.cs",
+              "ToolTip": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\Models\\Dto.cs",
+              "RelativeToolTip": "WebBanHang\\Models\\Dto.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAIA3wCYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T18:11:14.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout1.cshtml",
+              "DocumentMoniker": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\Views\\Shared\\_Layout1.cshtml",
+              "RelativeDocumentMoniker": "WebBanHang\\Views\\Shared\\_Layout1.cshtml",
+              "ToolTip": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\Views\\Shared\\_Layout1.cshtml",
+              "RelativeToolTip": "WebBanHang\\Views\\Shared\\_Layout1.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADMAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T18:22:29.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebBanHang\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebBanHang\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T18:34:49.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GioHang.cshtml",
+              "DocumentMoniker": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\Views\\Home\\GioHang.cshtml",
+              "RelativeDocumentMoniker": "WebBanHang\\Views\\Home\\GioHang.cshtml",
+              "ToolTip": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\Views\\Home\\GioHang.cshtml",
+              "RelativeToolTip": "WebBanHang\\Views\\Home\\GioHang.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T17:02:46.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\Views\\HangHoa\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebBanHang\\Views\\HangHoa\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\Views\\HangHoa\\Details.cshtml",
+              "RelativeToolTip": "WebBanHang\\Views\\HangHoa\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T18:28:12.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HoaDonChiTiet.cs",
+              "DocumentMoniker": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\Models\\HoaDonChiTiet.cs",
+              "RelativeDocumentMoniker": "WebBanHang\\Models\\HoaDonChiTiet.cs",
+              "ToolTip": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\Models\\HoaDonChiTiet.cs",
+              "RelativeToolTip": "WebBanHang\\Models\\HoaDonChiTiet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T17:16:25.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HoaDon.cs",
+              "DocumentMoniker": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\Models\\HoaDon.cs",
+              "RelativeDocumentMoniker": "WebBanHang\\Models\\HoaDon.cs",
+              "ToolTip": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\Models\\HoaDon.cs",
+              "RelativeToolTip": "WebBanHang\\Models\\HoaDon.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T17:16:18.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "QLSanPham.cshtml",
+              "DocumentMoniker": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\Views\\Home\\QLSanPham.cshtml",
+              "RelativeDocumentMoniker": "WebBanHang\\Views\\Home\\QLSanPham.cshtml",
+              "ToolTip": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\Views\\Home\\QLSanPham.cshtml",
+              "RelativeToolTip": "WebBanHang\\Views\\Home\\QLSanPham.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T17:24:53.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanHang\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ductu\\Documents\\Zalo Received Files\\WebBanHang\\WebBanHang\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebBanHang\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T17:16:09.922Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

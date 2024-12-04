@@ -1,0 +1,303 @@
+﻿@{
+    Layout = null;
+    var HDJson = ViewBag.HoaDons;
+    var khachHang = ViewBag.Khachhang;
+}
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý đơn hàng</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .menu {
+            height: 100vh;
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-right: 1px solid #ddd;
+        }
+
+            .menu h1 {
+                font-size: 1.5rem;
+                border-bottom: 2px solid #ddd;
+                padding-bottom: 10px;
+                margin-bottom: 20px;
+            }
+
+        .btn-dark {
+            transition: background-color 0.3s ease;
+        }
+
+            .btn-dark:hover {
+                background-color: #444;
+            }
+
+        table th, table td {
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Menu Sidebar -->
+            <div class="col-md-3 col-lg-2 menu">
+                <h1 class="text-center mt-2">Menu</h1>
+                <a class="btn btn-outline-primary w-100 mb-2" asp-action="QLKhachHang" asp-controller="NhanVien">Quản lý người dùng</a>
+                <a class="btn btn-outline-primary w-100 mb-2" asp-action="QLSanPham" asp-controller="NhanVien">Quản lý sản phẩm</a>
+                <a class="btn btn-outline-primary w-100 mb-2" asp-action="QLDonHang" asp-controller="NhanVien">Quản lý đơn hàng</a>
+                <a class="btn btn-outline-primary w-100 mb-2" asp-action="QLKho" asp-controller="NhanVien">Quản lý kho</a>
+                <a class="btn btn btn-outline-danger w-100 mb-2" asp-action="DangXuat" asp-controller="NhanVien">Đăng xuất</a>
+            </div>
+            <!-- Main Content -->
+            <div class="col-md-9 col-lg-10 p-4">
+                <h1 class="mb-4">Quản lý đơn hàng</h1>
+                <!-- Search and Filter -->
+                <div class="d-flex flex-wrap align-items-center mb-3 gap-2">
+                    <input type="text" id="searchInput" class="form-control w-50" placeholder="Tìm kiếm theo Mã Hóa Đơn, Mã Khách Hàng, hoặc Trạng Thái">
+                    <button class="btn btn-primary" id="searchBtn">Tìm kiếm</button>
+                  
+                    <div class="d-flex flex-row mb-3">
+                        <input type="date" id="filterDate" class="form-control me-2">
+                        <input type="month" id="filterMonth" class="form-control me-2">
+                        <input type="number" id="filterYear" class="form-control me-2" placeholder="Nhập năm">
+                        <button class="btn btn-success me-2" id="filterBtn">Lọc</button>
+                    </div>
+                </div>
+                <!-- Table -->
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped" id="hoaDonTable">
+                        <thead class="table-light">
+                            <tr>
+                                <th>ID Hóa Đơn</th>
+                                <th>Mã Khách Hàng</th>
+                                <th>Thành Tiền</th>
+                                <th>Trạng Thái</th>
+                                <th>Ngày Đặt</th>
+                                <th>Ngày Giao</th>
+                                <th>Chi Tiết Hóa Đơn</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows will be populated dynamically -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+   
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const hoaDons = JSON.parse('@Html.Raw(HDJson)'); // Dữ liệu hóa đơn từ server
+
+            // Lấy dữ liệu từ ViewBag.HangHoas và chuyển nó thành đối tượng JavaScript
+            const hangHoas = JSON.parse('@Html.Raw(ViewBag.HangHoas)');
+            const khachhang = JSON.parse('@Html.Raw(khachHang)');
+
+            // Hàm tìm sản phẩm theo mã sản phẩm (Idsp)
+            function getProductNameById(idsp) {
+                const product = hangHoas.find(p => p.Id === idsp);
+                return product ? product.TenSp : 'Chưa có tên SP';
+            }
+            function getCustomerInfoById(id) {
+                const customer = khachhang.find(c => c.D === id);
+                return customer
+                    ? `${customer.HoTen} - ${customer.Sdt} - ${customer.DiaChi}`
+                    : 'Không tìm thấy thông tin khách hàng';
+            }
+            function displayHoaDons(hoaDons) {
+                const tableBody = document.querySelector("#hoaDonTable tbody");
+                tableBody.innerHTML = ""; // Xóa tất cả các dòng trong bảng trước khi thêm mới
+
+                hoaDons.forEach(hoaDon => {
+                    const row = document.createElement("tr");
+                    row.setAttribute("data-id", hoaDon.Id); // Thêm data-id để nhận diện hóa đơn
+                    row.innerHTML = `
+                        <td>${hoaDon.Id}</td>
+                        <td>${hoaDon.Idkh}</td>
+                        <td>${hoaDon.ThanhTien ? hoaDon.ThanhTien.toLocaleString('vi-VN') : 'Chưa có Thành Tiền'} VND</td>
+                        <td>${hoaDon.TrangThai || 'Chưa có Trạng Thái'}</td>
+                        <td>${hoaDon.NgayDat ? new Date(hoaDon.NgayDat).toLocaleDateString('vi-VN') : 'Chưa có Ngày Đặt'}</td>
+                        <td>${hoaDon.NgayGiao ? new Date(hoaDon.NgayGiao).toLocaleDateString('vi-VN') : 'Chưa giao'}</td>
+                        <td>
+                            <button class="btn btn-info btn-sm" onclick="openOrderDetails(${hoaDon.Id})">Xem Chi Tiết</button>
+                        </td>
+                    `;
+
+                    // Tạo modal cho từng hóa đơn
+                    const modal = document.createElement('div');
+                    modal.classList.add('modal', 'fade');
+                    modal.id = `orderDetailsModal${hoaDon.Id}`;  // Modal id duy nhất
+                    modal.setAttribute('tabindex', '-1');
+                    modal.innerHTML = `
+                        <div class="modal-dialog modal-dialog-centered modal-xl">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">CHI TIẾT ĐƠN HÀNG #${hoaDon.Id}</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="container">
+                                        <div class="row">
+                                            <!-- Cột Đơn hàng -->
+                                            <div class="col-md-4 border-end">
+                                                <h5 id="orderIDModal${hoaDon.Id}">Đơn hàng #${hoaDon.Id}</h5>
+                                                <div class="mb-3">
+                                                    <label for="order-date" class="form-label">Ngày tạo</label>
+                                                    <div class="d-flex">
+                                                        <input type="date" id="order-date${hoaDon.Id}" class="form-control me-2" value="${hoaDon.NgayDat ? new Date(hoaDon.NgayDat).toISOString().split('T')[0] : ''}">
+                                                        <input type="time" class="form-control" value="${hoaDon.NgayDat ? new Date(hoaDon.NgayDat).toLocaleTimeString('vi-VN') : ''}">
+                                                    </div>
+                                                </div>
+                                                   <div class="mt-2">
+                                                    <label for="order-status" class="form-label mt-3">Trạng thái</label>
+                                                    <input type="text" id="order-status${hoaDon.Id}" class="form-control" value="${hoaDon.TrangThai || 'Chưa có Trạng Thái'}" readonly>
+                                                </div>
+                                            </div>
+
+                                            <!-- Cột Thanh toán và Giao nhận -->
+                                            <div class="col-md-4 border-end">
+                                                <h6>Thanh toán</h6>
+                                                  <p id="payment-method${hoaDon.Id}">${hoaDon.PhuongThucThanhToan || 'Thanh toán khi nhận hàng'}</p>
+                                                <h6>Giao nhận</h6>
+                                                       <p id="delivery-address${hoaDon.Id}">
+                                                     ${getCustomerInfoById(hoaDon.Idkh) || 'Chưa có địa chỉ giao nhận'}
+                                                    </p>
+                                                          <label for="status-order" class="form-label">Tình trạng đơn hàng</label>
+                                                                 <input type="text" id="status-order${hoaDon.Id}" class="form-control" value="${hoaDon.NgayGiao ? 'Đã giao' : 'Đang giao'}"readonly>
+                                            </div>
+
+                                            <!-- Cột Ghi chú -->
+                                            <div class="col-md-4">
+                                                <h6>Đặt hàng ghi chú</h6>
+                                                <textarea class="form-control mb-2" id="order-notes${hoaDon.Id}" placeholder="Thêm ghi chú">${hoaDon.GhiChu || ''}</textarea>
+                                                <div class="d-flex mb-2">
+                                                    <button class="btn btn-secondary me-2" id="personal-notes-btn${hoaDon.Id}">Ghi chú cá nhân</button>
+                                                    <button class="btn btn-primary">Thêm</button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Bảng thông tin sản phẩm -->
+                                        <div class="mt-4">
+                                            <table class="table table-bordered" id="product-details-table${hoaDon.Id}">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Sản phẩm</th>
+                                                        <th>Chi phí</th>
+                                                        <th>SL</th>
+                                                        <th>Tổng cộng</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    ${hoaDon.HoaDonChiTiets && hoaDon.HoaDonChiTiets.length > 0
+                            ? hoaDon.HoaDonChiTiets.map(cthd => `
+                                                            <tr>
+                                                                         <td>${getProductNameById(cthd.Idsp)}</td> <!-- Tìm tên sản phẩm -->
+                                                                <td>${cthd.GiaBan ? cthd.GiaBan.toLocaleString('vi-VN') : 'Chưa có giá bán'} VND</td>
+                                                                <td>${cthd.Soluong || 'Chưa có số lượng'}</td>
+                                                                <td>${(cthd.GiaBan * cthd.Soluong).toLocaleString('vi-VN')} VND</td>
+                                                            </tr>
+                                                        `).join('')
+                            : `<tr><td colspan="4" class="text-center">Chưa có sản phẩm</td></tr>`
+                        }
+                                                    <tr>
+                                                        <td colspan="3" class="text-end fw-bold">Tổng cộng</td>
+                                                                <td id="total-amount${hoaDon.Id}">${hoaDon.ThanhTien ? hoaDon.ThanhTien.toLocaleString('vi-VN') : 'Chưa có tổng tiền'} VND</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-light" data-bs-dismiss="modal">Quay lại</button>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+
+                    // Thêm modal vào DOM
+                    document.body.appendChild(modal);
+
+                    // Thêm dòng hóa đơn vào bảng
+                    tableBody.appendChild(row);
+                });
+            }
+
+            // Mở modal khi nhấn vào nút "Xem Chi Tiết"
+            window.openOrderDetails = function (orderId) {
+                const modal = new bootstrap.Modal(document.getElementById(`orderDetailsModal${orderId}`));
+                modal.show();
+            }
+
+            // Hiển thị danh sách hóa đơn khi trang được tải
+            if (hoaDons && hoaDons.length > 0) {
+                displayHoaDons(hoaDons);
+            } else {
+                console.log("Không có hóa đơn để hiển thị");
+            }
+
+            // Tìm kiếm hóa đơn
+            function searchHoaDons() {
+                const searchKeyword = document.getElementById("searchInput").value.toLowerCase();
+
+                const filteredHoaDons = hoaDons.filter(hoaDon =>
+                    (hoaDon.Id && hoaDon.Id.toString().toLowerCase().includes(searchKeyword)) ||
+                    (hoaDon.Idkh && hoaDon.Idkh.toLowerCase().includes(searchKeyword)) ||
+                    (hoaDon.TrangThai && hoaDon.TrangThai.toLowerCase().includes(searchKeyword))
+                );
+
+                displayHoaDons(filteredHoaDons);
+            }
+
+            // Lọc theo ngày, tháng, năm
+            function filterHoaDons() {
+                let filteredHoaDons = hoaDons;
+
+                const filterDate = document.getElementById("filterDate").value;
+                const filterMonth = document.getElementById("filterMonth").value;
+                const filterYear = document.getElementById("filterYear").value;
+
+                if (filterDate) {
+                    filteredHoaDons = filteredHoaDons.filter(hoaDon =>
+                        new Date(hoaDon.NgayDat).toLocaleDateString('vi-VN') === new Date(filterDate).toLocaleDateString('vi-VN')
+                    );
+                }
+
+                if (filterMonth) {
+                    filteredHoaDons = filteredHoaDons.filter(hoaDon =>
+                        new Date(hoaDon.NgayDat).toLocaleString('vi-VN', { month: '2-digit', year: 'numeric' }) === filterMonth
+                    );
+                }
+
+                if (filterYear) {
+                    filteredHoaDons = filteredHoaDons.filter(hoaDon =>
+                        new Date(hoaDon.NgayDat).getFullYear() === parseInt(filterYear)
+                    );
+                }
+
+                displayHoaDons(filteredHoaDons);
+            }
+
+            // Gắn sự kiện tìm kiếm
+            document.getElementById("searchBtn").addEventListener("click", searchHoaDons);
+            document.getElementById("filterBtn").addEventListener("click", filterHoaDons);
+        });
+
+
+    </script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+﻿@model WebBanHang.Models.SanPhamViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<section class="site-banner jarallax min-height300 padding-large" style="background: url('@Url.Content("~/images/hero-image.jpg")') no-repeat; background-position: top;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="page-title">Shop page</h1>
+                <div class="breadcrumbs">
+                    <span class="item">
+                        <a asp-action="Index">Home /</a>
+                    </span>
+                    <span class="item">Shop</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="product-detail container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="product-image" style="margin-left:20%;">
+                <img src="~/images/@Model.Hinh" alt="@Model.Tensp" class="img-fluid" />
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="product-info">
+                <h2>@Model.Tensp</h2>
+                <p>Category: @Model.Idloai</p>
+                <p>Price: @string.Format("{0:N0}", Model.Gia) VND</p>
+
+                <div class="rating">
+                    @for (var i = 0; i < 5; i++)
+                    {
+                        <span class="star @(i < Model.DiemDanhGia ? "filled" : "")">★</span>
+                    }
+                    <span class="ms-2">(@Model.DiemDanhGia) Đánh giá</span>
+                </div>
+
+                <p class="product-description">@Model.MoTaNgan</p>
+
+                <form>
+                    <input type="hidden" name="productId" value="@Model.Id" />
+
+                    <div class="d-flex align-items-center" style="width:50%;">
+                        <button type="button" class="btn btn-sm btn-outline-secondary" id="decreaseQty" style="height: 50px;width: 50px; border-color:#dbdbdb;">-</button>
+                        <input type="number" name="quantity" value="1" min="1" class="form-control mx-2 text-center" id="quantityInput" />
+                        <button type="button" class="btn btn-sm btn-outline-secondary" id="increaseQty" style="height: 50px;width: 50px; border-color:#dbdbdb;">+</button>
+                    </div>
+
+                    <button type="button" id="addToCartBtn" class="btn btn-primary mt-3" style="margin-left: 10%;">
+                        <i class="bi bi-cart-plus"></i> Thêm vào giỏ hàng
+                    </button>
+                </form>
+
+                <script>
+                    document.addEventListener("DOMContentLoaded", function () {
+                        const quantityInput = document.getElementById('quantityInput');
+                        const decreaseQtyBtn = document.getElementById('decreaseQty');
+                        const increaseQtyBtn = document.getElementById('increaseQty');
+                        const addToCartBtn = document.getElementById('addToCartBtn');
+
+                        decreaseQtyBtn.addEventListener('click', function () {
+                            let currentQuantity = parseInt(quantityInput.value);
+                            if (currentQuantity > 1) {
+                                quantityInput.value = currentQuantity - 1;
+                            }
+                        });
+
+                        increaseQtyBtn.addEventListener('click', function () {
+                            let currentQuantity = parseInt(quantityInput.value);
+                            quantityInput.value = currentQuantity + 1;
+                        });
+
+                        addToCartBtn.addEventListener('click', function () {
+                            const quantity = quantityInput.value;
+                            addProductToCart(quantity, @Model.Id, '@Model.Tensp', @Model.Gia, '@Model.Hinh');
+
+                        });
+                    });
+                </script>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .product-detail {
+        margin-top: 50px;
+    }
+
+    .product-image img {
+        max-width: 100%;
+        border-radius: 8px;
+    }
+
+    .product-info {
+        padding-left: 30px;
+    }
+
+    .rating .star {
+        font-size: 20px;
+        color: #FFD700;
+    }
+
+        .rating .star.filled {
+            color: #FFD700;
+        }
+
+    .product-description {
+        font-size: 14px;
+        color: #666;
+        margin-top: 10px;
+        line-height: 1.6;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        color: white;
+    }
+</style>

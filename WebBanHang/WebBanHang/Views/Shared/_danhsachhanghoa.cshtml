@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewData["Title"] = "_danhsachhanghoa";
+    Layout = "_Layout1";
+}
+
+@RenderSection("BreadCrumbs", required: false)
+
+<div class="shopify-grid padding-large">
+    <div class="container">
+        <div class="row">
+
+            <section id="selling-products" class="col-md-9 product-store">
+                <div class="container">
+                    <div class="tab-content">
+                        <div id="all" data-tab-content class="active">
+                            @RenderBody()
+                        </div>
+                        <nav class="navigation paging-navigation text-center padding-medium" role="navigation">
+                            <div class="pagination loop-pagination d-flex justify-content-center">
+                                <a href="#" class="pagination-arrow d-flex align-items-center">
+                                    <i class="icon icon-arrow-left"></i>
+                                </a>
+                                <span aria-current="page" class="page-numbers current">1</span>
+                                <a class="page-numbers" href="#">2</a>
+                                <a class="page-numbers" href="#">3</a>
+                                <a href="#" class="pagination-arrow d-flex align-items-center">
+                                    <i class="icon icon-arrow-right"></i>
+                                </a>
+                            </div>
+                        </nav>
+                    </div>
+            </section>
+
+            @await Component.InvokeAsync("Menuloai")
+
+        </div>
+    </div>
+</div>
+
+
+

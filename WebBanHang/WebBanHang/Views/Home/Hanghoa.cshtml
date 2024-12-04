@@ -1,0 +1,59 @@
+﻿@model IEnumerable<WebBanHang.Models.SanPham>
+@{
+    ViewData["Title"] = "Shop";
+    Layout = "_danhsachhanghoa";
+}
+@section BreadCrumbs{
+<section class="site-banner jarallax min-height300 padding-large" style="background: url('@Url.Content("~/images/hero-image.jpg")') no-repeat; background-position: top;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="page-title">Shop page</h1>
+                <div class="breadcrumbs">
+                    <span class="item">
+                        <a asp-action="Index">Home /</a>
+                    </span>
+                    <span class="item">Shop</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+}
+<div class="row d-flex flex-wrap">
+    @foreach (var item in Model)
+    {
+        <div class="product-item col-lg-4 col-md-6 col-sm-6">
+            <div class="image-holder">
+                <img src="~/images/@item.HinhAnh" alt="@item.TenSp" class="product-image">
+            </div>
+            <div class="cart-concern">
+                <div class="cart-button d-flex justify-content-between align-items-center">
+                    <!-- Thêm sản phẩm vào giỏ hàng -->
+                    <button type="button" class="btn-wrap cart-link d-flex align-items-center"
+                            onclick="addProductToCart(1,@item.Id, '@item.TenSp', @item.Gia, '@item.HinhAnh')">
+                        Thêm vào giỏ hàng <i class="icon icon-arrow-io"></i>
+                    </button>
+                    <!-- Xem nhanh -->
+                    <a asp-controller="HangHoa" asp-action="Details" asp-route-id="@item.Id" type="button" class=" d-flex">
+                        <i class="bi bi-arrows-fullscreen ms-2 text-black fw-bold"></i>
+                    </a>
+
+                    <!-- Thêm vào danh sách yêu thích -->
+                    <button type="button" class="wishlist-btn">
+                        <i class="icon icon-heart"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="product-detail">
+                <h3 class="product-title">
+                    <a asp-controller="HangHoa" asp-action="Details" asp-route-id="@item.Id">@item.TenSp</a>
+                </h3>
+                <div class="item-price text-primary">@String.Format("{0:N0}", item.Gia) VND</div>
+            </div>
+        </div>
+    }
+</div>
+
+
+                        

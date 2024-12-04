@@ -1,0 +1,26 @@
+﻿@model IEnumerable<WebBanHang.Models.LoaiSanPham>
+
+<aside class="col-md-3">
+    <div class="sidebar">
+        <div class="widgets widget-menu">
+            <div class="widget-search-bar">
+                <form asp-action="Search" role="search" method="get" class="d-flex">
+                    <input class="search-field" placeholder="Search" name="query" type="text">
+                    <button type="submit" class="btn btn-dark"><i class="icon icon-search"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="widgets widget-product-tags">
+            <h5 class="widget-title">Tags</h5>
+            <ul class="product-tags sidebar-list list-unstyled">
+                @foreach (var item in Model)
+                {
+                    <li class="tags-item">
+                        <a asp-action="Hanghoa" asp-route-loai="@item.Id">@item.TenLoai</a>
+                    </li>
+                }
+            </ul>
+        </div>
+        
+    </div>
+</aside>
